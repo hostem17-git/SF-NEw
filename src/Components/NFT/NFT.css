@@ -1,0 +1,70 @@
+#NFT {
+    align-items: flex-start !important;
+}
+
+.nft_card-container {
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    height: auto;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.nft_card {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    width: 250px !important;
+    height: 250px !important;
+    display: flex;
+}
+
+.nft_card .nft_card-imgs {
+    height: 100%;
+    width: 100%;
+}
+
+.nft_card-imgs img {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (min-width: 1440px) {
+    .nft_card {
+        width: 450px !important;
+        height: 450px !important;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .nft_card {
+        width: 350px !important;
+        height: 350px !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .nft_card {
+        width: 250px !important;
+        height: 250px !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .nft_card {
+        height: 200px !important;
+        width: 200px !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .nft_card {
+        width: 46vw !important;
+        height: 47vw !important;
+    }
+
+    .nft_card-container {
+        margin-left: 0px;
+    }
+}

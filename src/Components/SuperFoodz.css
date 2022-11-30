@@ -1,0 +1,965 @@
+.super_foodz {
+    display: flex;
+    height: fit-content !important;
+    width: 100%;
+    background-color: #a094d2;
+    align-items: center;
+    justify-content: center;
+    padding: 35px 0;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+.super_foodz-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+.super_foodz-heading {
+    width: 95%;
+    max-width: 60ch;
+    margin: 20px auto;
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    line-height: 26px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.super_foodz-tree {
+    position: absolute;
+    left: 0%;
+    top: auto;
+    right: auto;
+    bottom: 0 !important;
+    width: 20vw;
+    margin-bottom: 21px;
+    margin-left: 18px;
+}
+
+.right {
+    position: absolute;
+    right: 0%;
+    top: auto;
+    left: auto;
+    bottom: auto;
+    width: 23vw;
+    margin-right: -20px;
+    margin-bottom: 21px;
+}
+
+.cafe {
+    position: absolute;
+    left: auto;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+    width: 265px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.RoadMap_Group {
+    display: flex;
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.RoadMap_Group img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.chili {
+    width: auto;
+    height: 400px;
+    margin: 0px 40px 10px 3px;
+}
+
+.rdmap {
+    width: 755px;
+    margin-left: -19px;
+}
+
+.roadMap_Card-container {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.roadMap_Card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px 40px;
+    width: 90%;
+    /* max-width: 335px; */
+    border: 3px solid #000;
+}
+
+.roadMap_Card-title {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.roadMap_Card-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.roadMap_Card-list-item {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.roadMap_Card-image {
+    width: 230px;
+}
+
+.img2 {
+    position: absolute;
+    left: 0%;
+    top: auto;
+    right: auto;
+    bottom: 0%;
+    width: 350px;
+    margin-bottom: -41px;
+    margin-left: -35px;
+}
+
+.btn-download {
+    display: flex;
+    padding: 5px 15px;
+    font-family: Montserrat;
+    font-weight: bold;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+    max-width: fit-content;
+    margin: 55px 0 15px;
+    border: 3px solid #000;
+    border-radius: 50px;
+    background-color: transparent;
+    color: #000;
+    z-index: 99;
+}
+
+.btn-download:hover {
+    color: #000;
+}
+
+.nfts-img {
+    width: 200px;
+    margin: 10px auto;
+}
+
+.team-container {
+    display: -ms-grid;
+    display: grid;
+    width: auto;
+    width: 90%;
+    max-width: 780px;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 60px;
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+}
+
+.team_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.team_card-img {
+    display: flex;
+    align-items: flex-end;
+    width: 95%;
+    justify-content: center;
+}
+
+.team {
+    max-width: none;
+    width: 100%;
+    margin-top: 0px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+.light {
+    width: 95%;
+    max-width: 660px;
+    text-align: center;
+}
+
+.b2 {
+    font-size: 18px;
+    font-weight: 500
+}
+
+.b3 {
+    font-size: 28px;
+    font-weight: 400
+}
+
+.whitepaper {
+    padding-bottom: 60px;
+}
+
+.whitepaper .btn-download {
+    margin-top: 55px;
+}
+
+.local-charties {
+    background-color: #72DBD4;
+    padding: 15px 10px;
+}
+
+.local-charties .super_foodz-heading {
+    font-weight: 600 !important;
+    margin-bottom: 40px;
+}
+
+.local-charties .super_foodz-para {
+    font-weight: 400 !important;
+    margin-bottom: 10px;
+}
+
+#team-img-0 {
+    width: 140px;
+}
+
+#team-img-1 {
+    width: 110px;
+}
+
+#team-img-2 {
+    width: 140px;
+}
+
+#team-img-3 {
+    width: 150px;
+    margin-left: 40px;
+}
+
+#team-img-4 {
+    width: 150px;
+    margin-left: 10px;
+}
+
+#team-img-5 {
+    width: 160px;
+}
+
+.team-names {
+    margin: 0 auto !important;
+}
+
+.rdmap-img {
+    width: 360px;
+}
+
+.super_foodz-para {
+    width: 95%;
+    max-width: 54ch;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.buy_super_foodz-text {
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    width: 95%;
+    max-width: 38ch;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.buy-img {
+    width: 600px;
+}
+
+.whitepaper-img {
+    width: 450px;
+}
+
+.cafe-single_heading {
+    color: #000;
+    font-size: 48px;
+    line-height: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin: 25px auto;
+    font-style: italic;
+}
+
+.buy_superFoodz-main-heading {
+    width: 100%;
+    max-width: 300px;
+    font-weight: bold;
+    margin: auto
+}
+
+.buy_superFoodz-sub-heading {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+@media screen and (min-width: 1920px) {
+    .super_foodz-tree {
+        width: 410px;
+        bottom: 50px;
+    }
+
+    .buy_superFoodz-main-heading {
+        max-width: 500px;
+    }
+
+    .buy_superFoodz-sub-heading {
+        max-width: 650px;
+    }
+
+    .super_foodz-heading {
+        font-size: 36px;
+        line-height: 43px;
+    }
+
+    .rdmap-img {
+        width: 552px;
+    }
+
+    .buy_super_foodz-text {
+        font-size: 36px;
+        font-family: 'Montserrat';
+    }
+
+    .btn-download {
+        margin-top: 20px;
+        margin-bottom: 25px;
+        padding: 10px 25px;
+        font-size: 28px;
+    }
+
+    .local-charties {
+        padding-top: 50px;
+        padding-bottom: 37px;
+    }
+
+    .chili {
+        width: 552px;
+        height: auto;
+        margin-right: -10px;
+        margin-bottom: -14px;
+        margin-left: 91px;
+    }
+
+    .rdmap {
+        width: 1325px;
+        height: 700px;
+        max-width: 1327px;
+        margin-right: 0px;
+        margin-left: 10px;
+    }
+
+    .super_foodz-img {
+        max-width: 1100px;
+    }
+
+    .team-img {
+        max-width: 1100px;
+    }
+
+    .cafe-img {
+        max-width: 1000px;
+    }
+
+    .nfts-img {
+        width: 340px;
+        height: 150px;
+        margin-bottom: 0px;
+    }
+
+    .whitepaper-img {
+        width: 728px;
+    }
+
+    .super_foodz {
+        padding-top: 49px;
+    }
+
+    .team-section {
+        padding-top: 30px !important;
+    }
+
+    .cafe {
+        width: 480px !important;
+    }
+
+    .super_foodz-para {
+        font-size: 24px !important;
+        line-height: 28px !important;
+    }
+
+    .img2 {
+        width: 655px;
+        margin-bottom: -83px;
+    }
+
+    .whitepaper .btn-download {
+        margin-top: 80px;
+    }
+
+    .whitepaper {
+        padding-bottom: 195px !important;
+    }
+
+    .super_foodz-heading .team {
+        font-size: 36px;
+        line-height: 43px;
+        font-weight: 600;
+    }
+
+    #team-img-0 {
+        width: 200px;
+    }
+
+    #team-img-1 {
+        width: 150px;
+    }
+
+    #team-img-2 {
+        width: 260px;
+    }
+
+    #team-img-3 {
+        width: 215px;
+        margin-left: 60px;
+    }
+
+    #team-img-4 {
+        width: 200px;
+    }
+
+    #team-img-5 {
+        width: 250px;
+    }
+
+    .team-container {
+        width: 90%;
+        max-width: 1320px;
+    }
+
+    .cafe-para {
+        max-width: 85ch;
+    }
+
+    .cafe-bg-container {
+        padding-bottom: 172px !important;
+    }
+
+    .buy-img {
+        width: 1024px;
+    }
+}
+
+@media screen and (min-width: 1440px) and (max-width:1919px) {
+    .super_foodz-heading {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .buy_superFoodz-main-heading {
+        max-width: 400px;
+    }
+
+    .buy_superFoodz-sub-heading {
+        max-width: 550px;
+    }
+
+    .buy_super_foodz-text {
+        font-size: 28px;
+        font-family: 'Montserrat';
+    }
+
+    .BUY_SUPERFOODZ {
+        height: 100vh !important;
+        max-height: 600px;
+    }
+
+    .super_foodz-img {
+        max-width: 1100px;
+    }
+
+    .super_foodz-img {
+        width: 1100px;
+    }
+
+    #team-img-0 {
+        width: 200px;
+    }
+
+    #team-img-1 {
+        width: 150px;
+    }
+
+    #team-img-2 {
+        width: 220px;
+    }
+
+    #team-img-3 {
+        width: 215px;
+        margin-left: 60px;
+    }
+
+    #team-img-4 {
+        width: 200px;
+        margin-left: 25px;
+    }
+
+    #team-img-5 {
+        width: 250px;
+    }
+
+    .team-container {
+        margin-top: 0;
+        max-width: 1320px;
+    }
+
+    .local-charties {
+        padding-top: 45px;
+    }
+
+    .whitepaper .btn-download {
+        margin-top: 70px;
+    }
+
+    .super_foodz {
+        padding-top: 42px;
+    }
+
+    .super_foodz-tree {
+        width: 20vw;
+        bottom: 50px;
+    }
+
+    .super_foodz-para {
+        font-size: 20px !important;
+        line-height: 28px !important;
+    }
+
+    .whitepaper {
+        padding-bottom: 81px;
+    }
+
+    .super_foodz-heading .team {
+        font-size: 24px;
+        line-height: 26px;
+        font-weight: 600;
+    }
+
+    .whitepaper-img {
+        width: 728px;
+    }
+
+    .cafe {
+        width: 330px;
+    }
+
+    .img2 {
+        width: 411px;
+        margin-bottom: -49px;
+    }
+
+    .nfts-img {
+        width: 265px;
+    }
+
+    .cafe-bg-container {
+        padding-bottom: 172px !important;
+    }
+
+    .rdmap-img {
+        width: 552px;
+    }
+
+    .buy-img {
+        width: 1024px;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+    .super_foodz-tree {
+        width: 250px;
+        bottom: 50px;
+    }
+
+    .rdmap-img {
+        width: 360px;
+    }
+
+    .team-img {
+        max-width: 680px;
+    }
+
+    .local-charties {
+        padding-top: 35px;
+    }
+
+    .cafe {
+        width: 290px;
+    }
+
+    .super_foodz-para {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .super_foodz-heading {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .super_foodz-heading .team {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .team-container {
+        max-width: 830px;
+    }
+
+    #team-img-0 {
+        width: 150px;
+    }
+
+    #team-img-1 {
+        width: 120px;
+    }
+
+    #team-img-2 {
+        width: 180px;
+    }
+
+    #team-img-3 {
+        width: 150px;
+        margin-left: 40px;
+    }
+
+    #team-img-4 {
+        width: 140px;
+    }
+
+    #team-img-5 {
+        width: 150px;
+    }
+
+    .cafe-bg-container {
+        padding-bottom: 130px !important;
+    }
+
+    .buy-img {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .chili {
+        margin: 0 0 10px 3px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .super_foodz-img {
+        max-width: 530px;
+    }
+
+    .team-img {
+        max-width: 640px;
+    }
+
+    .right {
+        position: relative;
+        z-index: 5;
+        width: 320px !important;
+        margin-top: -50px;
+        margin-bottom: -50px;
+        margin-left: 0px;
+    }
+
+    .cafe {
+        width: 200px !important;
+    }
+
+    .nfts-img {
+        width: 190px;
+    }
+
+
+    .super_foodz-para {
+        font-size: 12px;
+    }
+
+
+    .light {
+        font-weight: 300;
+    }
+
+    .chili {
+        width: 300px;
+        height: 300px;
+    }
+
+    .rdmap {
+        width: 559px;
+        margin-left: 0px;
+    }
+
+    .img2 {
+        width: 350px !important;
+        margin-bottom: -50px;
+        margin-left: -70px;
+    }
+
+    .buy-img {
+        width: 600px;
+    }
+
+    .whitepaper-img {
+        width: 380px;
+    }
+
+    .cafe-single_heading {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .super_foodz-img {
+        max-width: 450px;
+    }
+
+    .super_foodz-tree {
+        position: static;
+        width: 230px;
+        margin-left: 10px;
+        bottom: 50px;
+
+    }
+
+    .rdmap-img {
+        width: 310px;
+    }
+
+    .super_foodz-heading {
+        font-size: 16px;
+    }
+
+    .team-names .team {
+        font-size: 11px !important;
+        line-height: 14px;
+    }
+
+    .team-img {
+        max-width: 540px;
+    }
+
+    #team-img-0 {
+        width: 120px;
+    }
+
+    #team-img-1 {
+        width: 90px;
+    }
+
+    #team-img-2 {
+        width: 140px;
+    }
+
+    #team-img-3 {
+        width: 100px;
+        margin-left: 27px;
+    }
+
+    #team-img-4 {
+        width: 90px;
+    }
+
+    #team-img-5 {
+        width: 120px;
+    }
+
+    .cafe {
+        position: static !important;
+    }
+
+    .nfts-img {
+        width: 170px;
+    }
+
+    .team-container {
+        gap: 0px;
+        max-width: 660px;
+    }
+
+    .RoadMap_Group {
+        display: none;
+    }
+
+    .roadMap_Card-container {
+        display: flex;
+    }
+
+    .img2 {
+        position: relative;
+        z-index: 5;
+        width: 320px !important;
+        margin-top: -50px;
+        margin-bottom: -50px;
+        margin-left: 0px;
+    }
+
+    .super_foodz-para {
+        font-size: 12px;
+    }
+
+    .buy-img {
+        width: 500px;
+    }
+
+    .whitepaper-img {
+        width: 330px;
+    }
+
+    .cafe-single_heading {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .super_foodz-img {
+        max-width: 350px;
+    }
+
+    .rdmap-img {
+        width: 210px;
+    }
+
+    .super_foodz-heading {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .team-container {
+        grid-column-gap: 0px;
+        -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        -ms-grid-rows: auto auto auto;
+        grid-template-rows: auto auto auto;
+    }
+
+    .team_card {
+        width: 95%;
+        max-width: 350px;
+    }
+
+    .team {
+        font-size: 18px;
+    }
+
+    .roadMap_Card-image {
+        width: 230px;
+    }
+
+    .nfts-img {
+        width: 120px;
+    }
+
+    .b2 {
+        font-size: 16px;
+    }
+
+    .b3 {
+        font-size: 20px;
+    }
+
+    .team-img {
+        max-width: 330px;
+    }
+
+    #team-img-0 {
+        width: 120px;
+    }
+
+    #team-img-1 {
+        width: 90px;
+    }
+
+    #team-img-2 {
+        width: 140px;
+    }
+
+    #team-img-3 {
+        width: 100px;
+    }
+
+    #team-img-4 {
+        width: 90px;
+    }
+
+    #team-img-5 {
+        width: 120px;
+    }
+
+    .team-names {
+        height: 90px;
+    }
+
+    .team-names .team {
+        font-size: 14px !important;
+        line-height: 16px !important;
+    }
+
+    .buy-img {
+        width: 600px;
+    }
+
+    .whitepaper-img {
+        width: 230px;
+    }
+}

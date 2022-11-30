@@ -1,0 +1,222 @@
+.nav-link {
+    font-family: 'Montserrat' !important;
+    color: #1a1b1f !important;
+    font-size: 20px;
+    line-height: 20px;
+    font-style: italic;
+    font-weight: 600 !important;
+    letter-spacing: 0.25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link:hover {
+    color: rgba(26, 27, 31, 0.75) !important;
+}
+
+.image-container {
+    display: flex;
+    width: 100vw;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.nanLink_container {
+    display: flex;
+    top: 10px;
+    justify-content: space-between;
+}
+
+.absolute {
+    display: flex;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 90%;
+    max-width: 170px;
+}
+
+.navbar-brand {
+    width: 20%;
+    max-width: 150px;
+    min-width: 100px;
+}
+
+.navbar-brand img {
+    width: 100%;
+}
+
+.footer-text {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 600;
+    font-family: Montserrat !important;
+    max-width: fit-content !important;
+    margin: 0 !important;
+}
+
+.copyrights {
+    font-size: 20px;
+    font-family: 'Montserrat';
+}
+
+.footer {
+    display: flex;
+    top: auto;
+    right: 20px;
+    align-items: center;
+    bottom: 0;
+    height: fit-content;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 300px;
+    position: absolute;
+    bottom: 25px;
+}
+
+.custom_Tooltip {
+    display: none;
+    margin-top: -79px;
+    opacity: 1 !important;
+    background-color: #c07fb6;
+}
+
+.custom_Tooltip .tooltip-inner {
+    background-color: #c07fb6 !important;
+    border: none !important;
+    height: fit-content !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: initial;
+    gap: 5px;
+}
+
+.footer-container {
+    padding-bottom: 25px !important;
+}
+
+@media screen and (min-width: 1920px) {
+    .copyrights {
+        font-size: 24px;
+    }
+
+    #buy-img {
+        margin-right: -25px !important;
+        margin-bottom: -40px !important;
+        width: 480px !important;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    #buyFoodz {
+        max-width: 1024px;
+    }
+
+    #buy-img {
+        margin-right: -25px;
+        margin-bottom: -40px;
+        width: 400px;
+    }
+
+
+}
+
+@media screen and (max-width: 991px) {
+    .absolute {
+        top: 15px;
+    }
+
+    .copyrights {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .custom_Tooltip {
+        display: flex;
+        padding-bottom: 40px;
+    }
+
+    .nanLink_container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0 !important;
+    }
+
+    .navbar-toggler {
+        border: none !important;
+    }
+
+    .navbar-toggler:focus {
+        outline: none !important;
+        text-decoration: none !important;
+        box-shadow: none !important;
+    }
+
+    .nav-link {
+        width: 100% !important;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .absolute {
+        position: relative; 
+        top: auto; 
+        right: 0;
+        width: 90%;
+        margin: 10px auto !important;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .footer {
+        position: relative;
+        bottom: 0;
+        right: 0;
+        margin: 20px auto;
+    }
+
+    .css-8mc56o {
+        width: 100% !important;
+        justify-content: space-between !important;
+    }
+
+    .css-i9fmh8-MuiBackdrop-root-MuiModal-backdrop {
+        background-color: transparent !important
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .custom_Tooltip {
+        margin-top: -74px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .custom_Tooltip {
+        margin-top: -70px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .custom_Tooltip {
+        margin-top: -66px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .custom_Tooltip {
+        margin-top: -62px;
+    }
+
+    .footer-text {
+        font-size: 20px;
+    }
+}

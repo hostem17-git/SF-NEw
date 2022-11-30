@@ -1,0 +1,81 @@
+.logo_section_container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 210px;
+    padding-bottom: 170px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #a094d2;
+}
+
+.logo_section-image {
+    max-width: 100%;
+    display: inline-block;
+}
+
+.footer-image {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 280px;
+    margin-bottom: 30px;
+
+}
+
+.logo_section-image img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    width: 350px;
+    margin-bottom: 130px;
+}
+
+
+@media screen and (min-width: 1920px) {
+    .logo_section_container {
+        padding-top: 298px;
+        padding-bottom: 433px;
+    }
+
+    .logo_section-image img {
+        width: 500px;
+    }
+
+    .footer-image {
+        max-width: 500px;
+    }
+}
+
+
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+    .logo_section_container {
+        padding-top: 250px;
+        padding-bottom: 370px;
+        height: auto;
+    }
+
+    .logo_section-image img {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .logo_section-image img {
+        max-width: 270px;
+    }
+}
